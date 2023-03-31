@@ -1,5 +1,7 @@
 * {
+    box-sizing: border-box;
     outline: 1px solid red;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -29,24 +31,31 @@ header {
     display: flex;
     align-items: center;
     min-height: 50px;
+        /* background-color: red; */
 }
 .nav-start ul li{
     display: inline-block;
     position: relative;
+    margin: 0;
+    padding: 15px;
+    /* background-color: red; */
    
 }
 
 .nav-start ul li a{
     text-align: center;
     padding: 15px;
-    margin: 0px;
+    margin-top: 0px;
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
 }
+
 
 .nav-end {
     display: flex;
     float: right;
+        /* background-color: red; */
 }
 
 .nav-end ul li{
@@ -56,10 +65,8 @@ header {
 
 .nav-end ul li i{
     text-align: center;
-    display: inline-block;
     padding: 15px;
     margin: 0px;
-    font-size: 14px;
     font-weight: bold;
     
 }

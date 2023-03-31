@@ -1,65 +1,39 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pinterest</title>
   <script src="https://kit.fontawesome.com/5f222cc947.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="style.css">
+  <title>pinterest 3</title>
 </head>
-
-<header>
-  <div class="Interior">
-    <a href="" class="logo">
-      <img class="icon-logo" src="badgeRGB.png" alt="Logo">
-    </a>
-    <nav class="navegacion">
-      <ul>
-        <li> <a href="">Inicio</a> </li>
-        <li> <a href="">Hoy</a> </li>
-        <li class="submenu">
-          <a href="">Crear</a>
-          <ul class="hijos">
-            <li> <a class="items-crear" href="">Crear una Idea Pin</a> </li>
-            <li> <a class="items-crear" href="">Crear Pin</a> </li>
-          </ul>
-        </li>
-        <li> <input class="search" type="text" placeholder="Buscar.."> </li>
-      </ul>
+<div>
+  <header>
+    <nav>
+      <div class="nav-tab">
+        <ul>
+          <a href="#"><img class="logo-icon" src="logo-pinterest.png" alt="Logo"></a>
+          <li><a href="#">Inicio</a> </li>
+          <li><a href="#">Hoy</a> </li>
+          <li><a href="#">Crear</a></li>
+        </ul>
+        <form action="">
+          <input class="search" placeholder="Buscar..." type="text" name="search">
+        </form>
+      </div>
+      <div class="nav-tab-end">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+          <li><a href="./login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+          <li><a href="#"><i class="fa-solid fa-chevron-down"></i></a></li>
+        </ul>
+      </div>
     </nav>
-  </div>
-  <div>
-    <nav class="navegacion-end">
-      <ul>
-
-        <li>
-          <i class="fa-solid fa-bell"></i>
-        </li>
-        <li>
-          <i class="fa-solid fa-envelope"></i>
-        </li>
-        <li class="submenu">
-          <i class="fa-solid fa-circle-user"></i>
-          <ul class="hijos">
-            <li>
-              <a href="">Agregar Cuenta</a>
-            </li>
-            <li>
-              <a href="">Lorem, ipsum dolor.</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <i class="fa-solid fa-chevron-down"></i>
-        </li>
-
-      </ul>
-
-    </nav>
-  </div>
-</header>
+  </header>
+</div>
 
 <body>
   <div class="galery">
@@ -94,14 +68,6 @@
     <img class="img-body" src="https://i.pinimg.com/564x/38/d9/8a/38d98ab2beedefb5e833b07fbf81e35c.jpg" alt="">
     <img class="img-body" src="https://i.pinimg.com/564x/c5/98/e8/c598e870eb35412e478a8a0ccaac37e1.jpg" alt="">
   </div>
-  <!-- <footer>
-    <div>
-      <ul class="footer">
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Categorias</a></li>
-      </ul>
-    </div>
-  </footer> -->
 </body>
 
 </html>

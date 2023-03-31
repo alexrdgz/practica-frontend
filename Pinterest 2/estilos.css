@@ -85,11 +85,15 @@ body{
     padding: 5px 200px;
 }
 
+
+
+
+
 .navegacion-end {
     float: right;
     display: flex;
     align-items: center;
-    min-height: 50px;
+    min-height: 60px;
     
 }
 
