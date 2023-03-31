@@ -1,0 +1,149 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: .1px .1px 5px 1px;
+
+}
+body{
+    /* margin-top: 120x; */
+    background-color: white;
+}
+
+
+.Interior {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    float: left;
+    margin: 5px;
+}
+.icon-logo {
+    height: 30px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.navegacion {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    
+}
+
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+.navegacion ul li a{
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.navegacion ul li:hover .hijos{
+    display: block;
+
+}
+
+.navegacion .submenu .hijos{
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    background-color: bisque;
+}
+.navegacion .submenu .hijos li a{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.items-crear {
+    margin: 20px;
+    padding: 20px;
+}
+
+.search {
+    padding: 5px 200px;
+}
+
+.navegacion-end {
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    
+}
+
+.navegacion-end ul li {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.navegacion-end ul li i{
+    /* width: 50px; */
+    text-align: center;
+    font-weight: bold;
+    padding: 7.5px 15px 15px 15px;
+    margin: 0 15px 15px 15px;
+}
+
+.navegacion-end ul li:hover .hijos{
+    display: block;
+}
+.navegacion-end .submenu .hijos{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.img-body{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 2em;
+    /* outline: 2px solid white; */
+    border-radius: 10%;
+    box-shadow: .1px .1px 5px 1px;
+}
+.galery {
+    margin: 100px 40px 40px 40px;
+    columns: 5 320px;
+    column-gap: 2em; 
+}
+
+/* .footer {
+    text-align: center;
+}
+
+.footer li{
+    text-align: end;
+    display: inline-block;
+    position: relative;
+    padding: 12px 20px;
+} */
+
